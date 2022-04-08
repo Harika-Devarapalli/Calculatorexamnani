@@ -64,15 +64,18 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/bopen"
-                android:padding="20dp"
-                android:layout_margin="10dp"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="20dp"
                 android:text="("
-                android:layout_weight="1"/>
+                app:cornerRadius="100dp" />
             <Button
+                app:cornerRadius="100dp"
                 android:text=")"
                 android:id="@+id/bclose"
                 android:layout_width="0dp"
@@ -80,6 +83,7 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="%"
                 android:id="@+id/bmod"
                 android:layout_width="0dp"
@@ -87,6 +91,7 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="/"
                 android:id="@+id/bdiv"
                 android:layout_width="0dp"
@@ -100,6 +105,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
             <Button
+                app:cornerRadius="100dp"
                 android:text="7"
                 android:id="@+id/b7"
                 android:padding="20dp"
@@ -108,6 +114,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="8"
                 android:id="@+id/b8"
                 android:layout_width="0dp"
@@ -115,6 +122,7 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="9"
                 android:id="@+id/b9"
                 android:layout_width="0dp"
@@ -122,6 +130,7 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="*"
                 android:id="@+id/bmul"
                 android:layout_width="0dp"
@@ -136,6 +145,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
             <Button
+                app:cornerRadius="100dp"
                 android:text="4"
                 android:id="@+id/b4"
                 android:padding="20dp"
@@ -144,6 +154,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="5"
                 android:id="@+id/b5"
                 android:layout_width="0dp"
@@ -151,6 +162,7 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="6"
                 android:id="@+id/b6"
                 android:layout_width="0dp"
@@ -158,6 +170,7 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="-"
                 android:id="@+id/bsub"
                 android:layout_width="0dp"
@@ -172,6 +185,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
             <Button
+                app:cornerRadius="100dp"
                 android:text="1"
                 android:id="@+id/b1"
                 android:padding="20dp"
@@ -180,6 +194,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
             <Button
+                app:cornerRadius="100dp"
                 android:text="2"
                 android:id="@+id/b2"
                 android:layout_width="0dp"
@@ -188,6 +203,7 @@
                 android:layout_margin="10dp"/>
             <Button
                 android:text="3"
+                app:cornerRadius="100dp"
                 android:id="@+id/b3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -195,6 +211,7 @@
                 android:layout_margin="10dp"/>
             <Button
                 android:text="+"
+                app:cornerRadius="100dp"
                 android:id="@+id/badd"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -209,6 +226,7 @@
             android:orientation="horizontal">
             <Button
                 android:text="."
+                app:cornerRadius="100dp"
                 android:id="@+id/bdot"
                 android:padding="20dp"
                 android:layout_margin="10dp"
@@ -217,6 +235,7 @@
                 android:layout_weight="1"/>
             <Button
                 android:text="0"
+                app:cornerRadius="100dp"
                 android:id="@+id/b0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -224,6 +243,7 @@
                 android:layout_margin="10dp"/>
             <Button
                 android:id="@+id/bclear"
+                app:cornerRadius="100dp"
                 android:textSize="11dp"
                 android:text="clear"
                 android:layout_width="0dp"
@@ -233,6 +253,7 @@
             <Button
                 android:id="@+id/bequal"
                 android:text="="
+                app:cornerRadius="100dp"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
